@@ -1,3 +1,5 @@
+if game.PlaceId ~= 16837656780 then return end
+
 local Players = game:GetService("Players")
 local Workspace = game:GetService("Workspace")
 local RS = game:GetService("RunService")
@@ -137,3 +139,4 @@ makeButton("Gun Aura", 40, "GunAura")
 makeButton("ESP Items", 80, "ESPItems")
 makeButton("ESP Mobs", 120, "ESPMobs")
 makeButton("Auto Bonds", 160, "AutoBonds")
+
